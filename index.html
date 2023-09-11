@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #ma{color: red;font-size: larger;}
-        #genders{width: 200px;height: 42px; border-radius: 12px;}
+        #ma { color: red; font-size: larger; }
+        #genders { width: 200px; height: 42px; border-radius: 12px; }
     </style>
 </head>
 <body>
-    <label for="drop-down"></label>
-   <h1 id="demo">How we can access the JS object</h1>
-   <button id="myBtn">Click Me</button>
-    <script src="app.js"></script>
+    <h1 class="demo">How we can access the JS object</h1>
+    <button class="myBtn">Click Me</button>
+    <script>
+        let myAsr = document.getElementsByClassName("myBtn");
+
+        // Loop through the elements and add the event listener
+        for (let i = 0; i < myAsr.length; i++) {
+            myAsr[i].addEventListener("click", Musad);
+        }
+
+        function Musad() {
+            document.querySelector(".demo").innerHTML = Date();
+        }
+    </script>
 </body>
 </html>
