@@ -1,14 +1,22 @@
-let myAsr = document.getElementsByClassName("myBtn")
-myAsr.addEventListener("click", Musad);
-function Musad(){
-  document.getElementsByClassName("demo").innerHTML = Date();
 
-};
-// const element = document.getElementById("myBtn");
-// element.addEventListener("click", myFunction);
-
-// function myFunction() {
-//   document.getElementById("demo").innerHTML = Date();
+// function myClick(){
+//    document.getElementById('h').innerHTML = "My Camle"
 // }
+// const box = document.getElementById('h');
+
+// box.addEventListener('click', () => {
+//   box.remove();
+// });
+box = document.getElementById('demo');
+box.addEventListener('click',() =>{
+   document.getElementById('h').innerHTML = "Hi there i got clicked"
+})
+
+
+
+
+
+
+
 
 
