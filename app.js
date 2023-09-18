@@ -18,15 +18,20 @@
 /*-------------------------------------------*/
 //  let text1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 //  document.getElementsByTagName("p")[0].innerHTML = text1.length;
-let myName ='Arif'
-console.log(myName.length)
+// let myName ='Arif'
+// console.log(myName.length)
 // console.log(myName.toUpperCase())
 // console.log(myName.toLowerCase())
 // console.log(myName.slice(2 , 23))
 // console.log(myName.replace( 'if', 'mx'))
-let friend = "     Md Shamim     "
-console.log(friend.trim())
+// let friend = "     Md Shamim     "
+// console.log(friend.trim())
+let Mytext = document.getElementById('h').innerHTML;
 
+let Mybtn = document.getElementById('btn')
+Mybtn.addEventListener('click', function(){
+    document.getElementById('h').innerHTML = Mytext.replace( 'Asim', "Ariz");
+} )
 
 
 
