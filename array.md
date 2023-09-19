@@ -9,5 +9,5 @@ The solution is an array!
 
 An array can hold many values under a single name, and you can access the values by referring to an index number.
 we can check length of an array by array.lenght
-an array can store any tupes of elements
+an array can store any types of elements
 for an instance mix value; let arr = [ 'Apple', { name: 'John' }, true, function() { alert('hello'); } ];
