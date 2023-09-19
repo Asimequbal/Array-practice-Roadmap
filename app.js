@@ -43,9 +43,12 @@
 // let text = `${My1stName}+${My2ndName}`
 // document.getElementById('h').innerHTML = text;
 // creating an arry 
-let fruits = ['banana','apple', 'grapes', 'cherry']
-// alert(fruits[2]);
-document.getElementById('h').innerHTML = fruits.length;
+// let fruits = ['banana','apple', 'grapes', 'cherry']
+// // alert(fruits[2]);
+// document.getElementById('h').innerHTML = fruits.length;
+let arr = ['apple',{name:'asim'},true,function (){alert('hello')}];
+
+document.getElementById('h').innerHTML = arr[3]();
 
 
 
