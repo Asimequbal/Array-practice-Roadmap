@@ -26,12 +26,23 @@
 // console.log(myName.replace( 'if', 'mx'))
 // let friend = "     Md Shamim     "
 // console.log(friend.trim())
-let Mytext = document.getElementById('h').innerHTML;
+// let Mytext = document.getElementById('h').innerHTML;
 
-let Mybtn = document.getElementById('btn')
-Mybtn.addEventListener('click', function(){
-    document.getElementById('h').innerHTML = Mytext.replace( 'Asim', "Ariz");
-} )
+// let Mybtn = document.getElementById('btn')
+// Mybtn.addEventListener('click', function(){
+//     document.getElementById('h').innerHTML = Mytext.replace( 'Asim', "Ariz");
+// } )
+/* Jvascript String Serch*/
+/*JavaScript String indexOf()*/
+// let text = "hghjj Please lk where 'locate' occurs!"
+// let index = text.indexOf('lk');
+// document.getElementById("h").innerHTML = index;
+let My1stName = "Asim";
+let My2ndName =  "Equbal";
+
+let text = `${My1stName}+${My2ndName}`
+document.getElementById('h').innerHTML = text;
+
 
 
 
