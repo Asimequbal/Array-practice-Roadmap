@@ -37,12 +37,15 @@
 // let text = "hghjj Please lk where 'locate' occurs!"
 // let index = text.indexOf('lk');
 // document.getElementById("h").innerHTML = index;
-let My1stName = "Asim";
-let My2ndName =  "Equbal";
+// let My1stName = "Asim";
+// let My2ndName =  "Equbal";
 
-let text = `${My1stName}+${My2ndName}`
-document.getElementById('h').innerHTML = text;
-
+// let text = `${My1stName}+${My2ndName}`
+// document.getElementById('h').innerHTML = text;
+// creating an arry 
+let fruits = ['banana','apple', 'grapes', 'cherry']
+// alert(fruits[2]);
+document.getElementById('h').innerHTML = fruits.length;
 
 
 
