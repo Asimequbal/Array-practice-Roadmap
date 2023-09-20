@@ -49,10 +49,21 @@
 // let arr = ['apple',{name:'asim'},true,function (){alert('hello')}];
 
 // document.getElementById('h').innerHTML = arr[3]();
-/* converts  array to strings*/
+/* converts  array to strings
 
 const cars = ['Maruti 800', 'Wagon R', 'Folks Wagon', 'Tyota'];
-document.getElementById('h').innerHTML = cars.toString();
+document.getElementById('h').innerHTML = cars.toString(); */
+
+/*Arrays are Objects 
+const cars = ['Maruti 800', 'Wagon R', 'Folks Wagon', 65];
+const person = {firstName:"John", lastName:"Doe", age:46};
+object uses name to access value and names 
+But the array uses the index to acces the value and the names
+*/
+const fruits = ['Maruti 800', 'Wagon R', 'Folks Wagon', 65];
+ 
+document.getElementById('h').innerHTML =  fruits[fruits.length - 1];
+
 
 
 
