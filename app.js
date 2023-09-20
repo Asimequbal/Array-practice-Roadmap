@@ -42,13 +42,18 @@
 
 // let text = `${My1stName}+${My2ndName}`
 // document.getElementById('h').innerHTML = text;
-// creating an arry 
+// creating an array 
 // let fruits = ['banana','apple', 'grapes', 'cherry']
 // // alert(fruits[2]);
 // document.getElementById('h').innerHTML = fruits.length;
-let arr = ['apple',{name:'asim'},true,function (){alert('hello')}];
+// let arr = ['apple',{name:'asim'},true,function (){alert('hello')}];
 
-document.getElementById('h').innerHTML = arr[3]();
+// document.getElementById('h').innerHTML = arr[3]();
+/* converts  array to strings*/
+
+const cars = ['Maruti 800', 'Wagon R', 'Folks Wagon', 'Tyota'];
+document.getElementById('h').innerHTML = cars.toString();
+
 
 
 
