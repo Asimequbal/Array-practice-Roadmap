@@ -45,4 +45,13 @@ Array concat()
 Array flat()
 Array splice()
 Array slice()
-</li>
+</li>..
+Splicing and Slicing Arrays
+The splice() method adds new items to an array.
+
+The slice() method slices out a piece of an array.
+The first parameter (0) defines the position where new elements should be added (spliced in).
+
+The second parameter (1) defines how many elements should be removed.
+
+The rest of the parameters are omitted. No new elements will be added.

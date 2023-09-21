@@ -81,9 +81,32 @@ document.getElementById("h").innerHTML = fruits;
 // fruits.pop();
 document.getElementById('h').innerHTML = fruits;
 const x = '9999'
-fruits.push(x);
+// fruits.push(x);
 document.getElementById('h').innerHTML = fruits;
+fruits.shift(); //it remove the 1st element from array
+document.getElementById('h').innerHTML = fruits;
+fruits.unshift('Lemaon');// add an element in starting of an array
+document.getElementById('h').innerHTML = fruits;
+//Merging (Concatenating) Arrays
+const fr1 = [ 'adaf',56, 'ksafml',8];
+const fr2 = ['asim', 5 , " amfkd" ];
+const fr3 = [54,544,454, 'asom'];
+const newArr =fr1.concat(fr2 , fr3) ;
+document.getElementById('h').innerHTML = newArr;
+//Flattening an Array => Flattening an array is the process of reducing the dimensionality of an array.
 
+//The flat() method creates a new array with sub-array elements concatenated to a specified depth.
+const mtnew = [ [54,54],['aksjkns','asim', 5], ['akd','ksj']];
+const neeArr1 = mtnew.flat();
+document.getElementById('h').innerHTML = neeArr1;
+/* JavaScript Splice method splice(); The first parameter (0) defines the position where new elements should be added (spliced in).
+
+The second parameter (1) defines how many elements should be removed.
+
+The rest of the parameters ("ariz", 5 , 9, "as") define the new elements to be added..*/
+const newa = [ 1,2,1,156,656,98,'Asim'];
+let ad = newa.splice(6 , 1, "ariz", 5 , 9, "as");
+document.getElementById('h').innerHTML = newa;
 
 
 
