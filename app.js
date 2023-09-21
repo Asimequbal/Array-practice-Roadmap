@@ -64,7 +64,7 @@ But the array uses the index to acces the value and the names
  
 // document.getElementById('h').innerHTML =  fruits[fruits.length - 1];
 
-// Looping an array 
+/* Looping an array 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let fLength = fruits.length;
 let text = "<div>";
@@ -73,6 +73,16 @@ for(let i = 0; i < fLength; i++){
     text += "</div>"
 }
 document.getElementById('h').innerHTML = text;
+document.getElementById('h').innerHTML = text;*/
+/* the pop() method
+The pop() removes the last element from an array*/
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("h").innerHTML = fruits;
+// fruits.pop();
+document.getElementById('h').innerHTML = fruits;
+const x = '9999'
+fruits.push(x);
+document.getElementById('h').innerHTML = fruits;
 
 
 

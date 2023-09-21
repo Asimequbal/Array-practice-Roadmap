@@ -30,3 +30,18 @@ for (let i = 0; i < fLen; i++) {
   text += "<li>" + fruits[i] + "</li>";
 }
 text += "</ul>";
+
+JavaScript Array Methods
+
+Array length
+Array toString()
+Array pop() --it removes the last element from an array
+Array push() -- it will add the element at the end
+Array shift()
+Array unshift()
+Array join()
+Array delete()
+Array concat()
+Array flat()
+Array splice()
+Array slice()
