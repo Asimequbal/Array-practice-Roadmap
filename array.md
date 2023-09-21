@@ -32,7 +32,7 @@ for (let i = 0; i < fLen; i++) {
 text += "</ul>";
 
 JavaScript Array Methods
-
+<li>
 Array length
 Array toString()
 Array pop() --it removes the last element from an array
@@ -45,3 +45,4 @@ Array concat()
 Array flat()
 Array splice()
 Array slice()
+</li>
