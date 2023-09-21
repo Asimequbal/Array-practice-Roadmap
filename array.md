@@ -20,3 +20,13 @@ But the array uses the index to acces the value and the names
 Array Properties and Methods
 cars.length   // Returns the number of elements
 cars.sort()   // Sorts the array
+
+
+Looping an array : one way to to loop through an array, is using for loop: for e.g const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fLen = fruits.length;
+
+let text = "<ul>";
+for (let i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";

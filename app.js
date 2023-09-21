@@ -60,9 +60,19 @@ const person = {firstName:"John", lastName:"Doe", age:46};
 object uses name to access value and names 
 But the array uses the index to acces the value and the names
 */
-const fruits = ['Maruti 800', 'Wagon R', 'Folks Wagon', 65];
+// const fruits = ['Maruti 800', 'Wagon R', 'Folks Wagon', 65];
  
-document.getElementById('h').innerHTML =  fruits[fruits.length - 1];
+// document.getElementById('h').innerHTML =  fruits[fruits.length - 1];
+
+// Looping an array 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fLength = fruits.length;
+let text = "<div>";
+for(let i = 0; i < fLength; i++){
+    text += "<li>" + fruits[i] + "</li>";
+    text += "</div>"
+}
+document.getElementById('h').innerHTML = text;
 
 
 
