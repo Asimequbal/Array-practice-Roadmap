@@ -104,9 +104,48 @@ document.getElementById('h').innerHTML = neeArr1;
 The second parameter (1) defines how many elements should be removed.
 
 The rest of the parameters ("ariz", 5 , 9, "as") define the new elements to be added..*/
-const newa = [ 1,2,1,156,656,98,'Asim'];
+/*const newa = [ 1,2,1,156,656,98,'Asim'];
 let ad = newa.splice(6 , 1, "ariz", 5 , 9, "as");
-document.getElementById('h').innerHTML = newa;
+document.getElementById('h').innerHTML = newa;*/
+
+//array sorting
+/*const fruits01 = ["Banana", "Orange", "Apple", "Mango"];
+fruits01.sort();
+document.getElementById('h').innerHTML = fruits01; //in this alphabetical sorting
+fruits01.reverse();
+document.querySelector('span').innerHTML = fruits01; */ // reversing the sort 
+//Numeric array sorting => By default array sort number as string
+// const numbers1 = [4,56,76,5,11,45,100,1000,999];
+// function compare(x,y){
+//     return x-y;
+
+// }
+// numbers1.sort(compare);
+// console.log(numbers1)
+/*const numbers1 = [4,56,76,5,11,45,100,1000,999];
+ document.getElementById('h').innerHTML = numbers1;
+ numbers1.sort( function(a,b){
+    return a-b;
+ })
+ document.querySelector('span').innerHTML = numbers1;
+ */
+/* we can sort numeric value by providing function thats why it is called higher order function , otherwise it will sort by default method  like in string order*/
+const numbers1 = [4, 56, 76, 5, 11, 45, 100, 1000, 999];
+mybtn1 = document.getElementById('btn1');
+mybtn1.addEventListener('click', function () {
+    numbers1.sort();
+document.getElementById('h').innerHTML = numbers1;
+})
+mybtn2 = document.getElementById('btn2')
+mybtn2.addEventListener('click',function(){
+ numbers1.sort(function(a,b){
+    return a-b;
+ })
+document.getElementById('h').innerHTML = numbers1;
+})
+
+
+
 
 
 
