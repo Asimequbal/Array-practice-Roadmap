@@ -129,7 +129,7 @@ document.querySelector('span').innerHTML = fruits01; */ // reversing the sort
  })
  document.querySelector('span').innerHTML = numbers1;
  */
-/* we can sort numeric value by providing function thats why it is called higher order function , otherwise it will sort by default method  like in string order*/
+/* we can sort numeric value by providing function thats why it is called higher order function , otherwise it will sort by default method  like in string order
 const numbers1 = [4, 56, 76, 5, 11, 45, 100, 1000, 999];
 mybtn1 = document.getElementById('btn1');
 mybtn1.addEventListener('click', function () {
@@ -142,7 +142,11 @@ mybtn2.addEventListener('click',function(){
     return a-b;
  })
 document.getElementById('h').innerHTML = numbers1;
-})
+})*/
+//finding the higest and the lowest value in an array
+const numbers1 = [4, 56, 76, 5, 11, 45, 100, 1000, 999];
+
+
 
 
 
