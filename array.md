@@ -61,3 +61,5 @@ Reversing an Array
 The reverse() method reverses the elements in an array.
 
 You can use it to sort an array in descending order
+
+// find the lowest and higest value in an array
